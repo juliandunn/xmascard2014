@@ -1,0 +1,14 @@
+{application, christmas, [
+	{description, "Christmas Card 2014"},
+	{vsn, "0.0.1"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+                inets,
+                cowboy
+	]},
+	{mod, {christmas_app, []}},
+	{env, []}
+]}.
